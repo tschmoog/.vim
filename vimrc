@@ -6,4 +6,3 @@ set number " turns on line numbers
 set shiftwidth=4 " makes autoindented tabs == 4 spaces
 " set cursorline " highlights current line
 filetype indent on
-set autoindent

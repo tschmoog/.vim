@@ -10,6 +10,9 @@ set path+=**
 set nrformats= " removes vims default behaviour of assuming leading 0 on
                 " a number is octal rather than decimal format  
 
+set relativenumber " Sets relative line numbers for easier movement (for me)
+set number
+set number relativenumber
 
 set showcmd " shows a preview of what command you are typing 
 

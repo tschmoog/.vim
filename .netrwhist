@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/Tim/practical_vim/code/files/mvc'
+let g:netrw_dirhist_1='/Users/Tim'
+let g:netrw_dirhist_0='/Users/Tim/practical_vim'
+let g:netrw_dirhist_9='/Users/Tim/practical_vim/code'
+let g:netrw_dirhist_8='/Users/Tim/practical_vim/code/files'
+let g:netrw_dirhist_7='/Users/Tim/practical_vim/code/files/mvc'
+let g:netrw_dirhist_6='/Users/Tim/practical_vim/code/files/mvc/lib'
+let g:netrw_dirhist_5='/Users/Tim/practical_vim/code/files/mvc'
+let g:netrw_dirhist_4='/Users/Tim/practical_vim/code/files/mvc/app'
+let g:netrw_dirhist_3='/Users/Tim/practical_vim/code/files/mvc'

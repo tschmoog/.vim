@@ -13,11 +13,11 @@ set nrformats= " removes vims default behaviour of assuming leading 0 on
 set relativenumber " Sets relative line numbers for easier movement (for me)
 set number
 set number relativenumber
-
+set textwidth=80 " Wraps text to start on a new line after 80 chars
 set showcmd " shows a preview of what command you are typing 
 
 " Set colorscheme:
-:color desert
+:color delek
 " Following command is an auto installer for the 
 " plugin manager. Will instal if the folders do not 
 " yet exist   
@@ -31,9 +31,16 @@ endif
 " place plugins to be installed here between call plug
 call plug#begin()
 
-Plug 'benmills/vimux' " Vim/Tmux integration. Call commands from vim to run in tmux
-Plug 'greghor/vim-pyShell' " ipython and tmux integration
-Plug 'julienr/vim-cellmode' " create executable cells similar to matlab/ipython
+Plug 'jpalardy/vim-slime' " send code to ipython for jupyter style execution
 
+Plug 'https://github.com/rkulla/pydiction.git' " python autocomplete
 
 call plug#end()
+
+
+let g:slime_target = "tmux" " Send slime commands to tmux
+let g:slime_default_config = {"socket_name": get(split($TMUX, ","), 0), "target_pane": ":.1"}
+let g:pydiction_location='//Users/Tim/.vim/plugged/pydiction/complete-dict'
+
+filetype plugin on
+

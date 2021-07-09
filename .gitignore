@@ -1,2 +1,5 @@
 autoload/
 plugged/
+.DS_Store
+.netrwhist
+.swp

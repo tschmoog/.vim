@@ -34,3 +34,5 @@ set nrformats= " removes vims default behaviour of assuming leading 0 on
 
 set relativenumber " Sets relative line numbers for easier movement (for me)
 set showcmd " shows a preview of what command you are typing 
+
+set spell spelllang=en_gb " turns on spellcheck 
